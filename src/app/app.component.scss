@@ -1,0 +1,14 @@
+button {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.button-click-container {
+    text-align: center;
+    padding: 32px;
+    margin-bottom: 10px;
+
+    .mat-flat-button.mat-accent {
+        background-color: green;
+    }
+}

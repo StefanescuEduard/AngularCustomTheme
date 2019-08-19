@@ -1,0 +1,9 @@
+$test-primary-color: mat-palette($mat-blue, 500);
+$test-accent-color: mat-palette($mat-light-blue, 900);
+$test-warn-color: mat-palette($mat-red, 900);
+
+$test-theme: mat-light-theme(
+  $test-primary-color,
+  $test-accent-color,
+  $test-warn-color
+);
